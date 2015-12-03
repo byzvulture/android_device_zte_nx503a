@@ -1,5 +1,4 @@
 # RIL
-ro.telephony.ril_class=NubiaUiccRIL
 rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 persist.rild.nitz_plmn=
@@ -239,3 +238,6 @@ ro.com.android.mobiledata=false
 
 # Video enhancer (w=low, n=middle, i=high)
 persist.sys.image.enhance=i
+
+# Set USB OTG enabled to add support for USB storage type
+persist.sys.isUsbOtgEnabled=1
